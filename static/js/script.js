@@ -98,28 +98,28 @@ skillsData.forEach(skill => {
 const projects = [
     {
         title: "E-Commerce Platform",
-        image: "/static/images/gym.jpg",
+        image: "./static/images/gym.jpg",
         description: "E-commerce Website for a Gym",
         tags: ["Html", "Css", "JavaScript", "Flask"],
         link: "#"
     },
     {
         title: "Beauty Website",
-        image: "/static/images/efimond.jpg",
+        image: "./static/images/efimond.jpg",
         description: "A clean and responsive website for a beauty care",
         tags: ["Html", "css", "JavaScript"],
         link: "https://efimond.netlify.app/"
     },
     {
         title: "Health Tracking App",
-        image: "/static/images/health.png",
+        image: "./static/images/health.png",
         description: "Mobile-first health monitoring system with IoT integration",
         tags: ["React Native", "Firebase", "AWS IoT", "GraphQL"],
         link: "#"
     },
     {
         title: "CRM Solution",
-        image: "/static/images/Crm.png",
+        image: "./static/images/Crm.png",
         description: "Enterprise customer relationship management platform",
         tags: ["Angular", "NestJS", "PostgreSQL", "Redis"],
         link: "#"
@@ -196,21 +196,21 @@ const testimonials = [
         role: "CEO @ Efimond Beauty Solutions",
         text: "Exceptional work! Delivered my project ahead of schedule while maintaining the highest quality standards.",
         rating: 5,
-        image: "/static/images/efia.jpg"
+        image: "./static/images/efia.jpg"
     },
     {
         name: "T-Monor",
         role: "CEO @ TMonor Perfect Collections",
         text: "The most reliable developer i worked with. Technical expertise combined with great communication skills.",
         rating: 5,
-        image: "/static/images/monor.jpg"
+        image: "./static/images/monor.jpg"
     },
     {
         name: "Master Jefferson",
         role: "Head Master @ Peace Preparatory School",
         text: "Transformed our vision into reality with pixel-perfect execution. Highly recommended!",
         rating: 5,
-        image: "/static/images/head.png"
+        image: "./static/images/head.png"
     }
 ];
 
