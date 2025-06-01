@@ -73,12 +73,12 @@ typeEffect();
 
 // Skills Data
 const skillsData = [
-    { icon: 'fa-code', title: 'Frontend', description: 'React, Vue, Angular, HTML5, CSS3, JavaScript' },
-    { icon: 'fa-server', title: 'Backend', description: 'Node.js, Python, Ruby, REST APIs, GraphQL' },
-    { icon: 'fa-mobile-screen', title: 'Mobile', description: 'React Native, Flutter, Native Android/iOS' },
-    { icon: 'fa-palette', title: 'Design', description: 'UI/UX, Figma, Adobe XD, Prototyping, Wireframing' },
-    { icon: 'fa-cloud', title: 'DevOps', description: 'Docker, AWS, CI/CD, Kubernetes, Terraform' },
-    { icon: 'fa-database', title: 'Databases', description: 'PostgreSQL, MongoDB, Redis, Firebase' }
+    { icon: 'fa-code', title: 'Frontend', description: 'React, Vue, HTML5, CSS3, JavaScript' },
+    { icon: 'fa-server', title: 'Backend', description: 'Node.js, Python, REST APIs, Flask' },
+    { icon: 'fa-mobile-screen', title: 'Mobile', description: 'Flutter, Native Android/iOS' },
+    { icon: 'fa-palette', title: 'Design', description: 'UI/UX, Figma, Prototyping, Wireframing' },
+    { icon: 'fa-cloud', title: 'DevOps', description: 'Docker, AWS, Kubernetes, Terraform' },
+    { icon: 'fa-database', title: 'Databases', description: 'PostgreSQL, MySQL, Firebase' }
 ];
 
 // Generate Skills Grid
@@ -114,14 +114,14 @@ const projects = [
         title: "Health Tracking App",
         image: "./static/images/health.png",
         description: "Mobile-first health monitoring system with IoT integration",
-        tags: ["React Native", "Firebase", "AWS IoT", "GraphQL"],
+        tags: ["Flutter", "Firebase", "AWS IoT", "GraphQL"],
         link: "#"
     },
     {
         title: "CRM Solution",
         image: "./static/images/Crm.png",
         description: "Enterprise customer relationship management platform",
-        tags: ["Angular", "NestJS", "PostgreSQL", "Redis"],
+        tags: ["React", "NestJS", "PostgreSQL"],
         link: "#"
     }
 ];
